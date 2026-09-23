@@ -1,0 +1,30 @@
+package Lec43;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Queue_In_Java {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Queue<Integer>q=new LinkedList<>();
+		LinkedList<Integer>q1=new LinkedList<>();
+		
+		q1.add(10);
+		q1.add(20);
+		q1.add(30);
+	
+		System.out.println(q1);
+		
+		q.add(10);
+		q.add(20);
+		q.add(30);
+		
+		System.out.println(q);
+		System.out.println(q.remove());
+		System.out.println(q);
+		
+	}
+
+}
